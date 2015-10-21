@@ -1,0 +1,3 @@
+rootProject.name = 'ViewManagerTest'
+
+include ':app'
