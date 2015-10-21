@@ -1,15 +1,14 @@
 //
-//  FooViewManager.m
+//  BarViewSupervisor.h
 //  ViewManagerTest
 //
 //  Created by Angelo Di Paolo on 10/21/15.
 //  Copyright © 2015 Facebook. All rights reserved.
 //
 
-#import "FooViewManager.h"
+#import <Foundation/Foundation.h>
+#import "RCTViewManager.h"
 
-@implementation FooViewManager
-
-RCT_EXPORT_MODULE()
+@interface BarViewSupervisor : RCTViewManager
 
 @end

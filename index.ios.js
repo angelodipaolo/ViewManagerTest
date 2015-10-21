@@ -13,8 +13,8 @@ var {
 } = React;
 
 
-var FooViewManager = React.requireNativeComponent('FooTestViewManager', null);
-
+// var FooView = React.requireNativeComponent('FooView', null);
+var FooViewManager = React.requireNativeComponent('FooViewManager', null);
 
 var ViewManagerTest = React.createClass({
   render: function() {
